@@ -1,0 +1,31 @@
+
+section {
+  text-align: center;
+}
+.main {
+  width: 700px;
+  height: 700px;
+  background-color: rgb(232, 235, 226);
+  display: inline-block;
+  align-items: center;
+  margin: 50px 50px;
+}
+.div1 , .div2 , .div3 {
+  width: 30%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+  display: inline-block;
+  margin: 10px 0 10px 0;
+  padding: 0 10px 0 10px;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+
+}
+.div2 .img112{
+    border: 1px solid black;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px black;
+}

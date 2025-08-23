@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+.galleryBox {
+  margin-top: 100px;
+  width: 50%;
+  height: 600px;
+  background-color: rgb(189, 206, 226);
+  display: inline-block;
+}
+.imageSection1,
+.imageSection2,
+.imageSection3 {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  margin: 20px 0 20px 0;
+  border-radius: 10px;
+}
+.imageSection2 .image5 {
+  margin: 15px 0 15px 0;
+}
+.imageSection2 .image6 {
+  margin: 15px 0 15px 0;
+  border-radius: 100%;
+  box-shadow: 0 0 15px black;
+  border: 1px solid black;
+}
+.imageSection2 .image7 {
+  margin: 15px 0 15px 0;
+}
+
+/* .about1 , .about2{
+  display: inline-block;
+  vertical-align: baseline;
+  background-color: rgb(148, 148, 92);
+  width: 25%;
+  border-radius: 10px;
+ padding: 0 20px 0 20px;
+ text-align: left;
+
+} */
